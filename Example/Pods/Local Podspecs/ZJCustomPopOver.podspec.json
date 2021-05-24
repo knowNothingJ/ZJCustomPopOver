@@ -1,0 +1,22 @@
+{
+  "name": "ZJCustomPopOver",
+  "version": "0.1.0",
+  "summary": "简单易用的popOver组件封装，使用系统的UIPopOverPresentation模式实现",
+  "homepage": "https://github.com/knowNothingJ/ZJCustomPopOver",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "knowNothingJ": "knowNothingJ@163.com"
+  },
+  "source": {
+    "git": "https://github.com/knowNothingJ/ZJCustomPopOver.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "requires_arc": true,
+  "source_files": "ZJCustomPopOver/Classes/**/*"
+}

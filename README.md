@@ -1,6 +1,6 @@
 # ZJCustomPopOver
 
-[![CI Status](https://img.shields.io/travis/zhangjingjing/ZJCustomPopOver.svg?style=flat)](https://travis-ci.org/zhangjingjing/ZJCustomPopOver)
+[![CI Status](https://img.shields.io/travis/knowNothingJ/ZJCustomPopOver.svg?style=flat)](https://travis-ci.org/knowNothingJ/ZJCustomPopOver)
 [![Version](https://img.shields.io/cocoapods/v/ZJCustomPopOver.svg?style=flat)](https://cocoapods.org/pods/ZJCustomPopOver)
 [![License](https://img.shields.io/cocoapods/l/ZJCustomPopOver.svg?style=flat)](https://cocoapods.org/pods/ZJCustomPopOver)
 [![Platform](https://img.shields.io/cocoapods/p/ZJCustomPopOver.svg?style=flat)](https://cocoapods.org/pods/ZJCustomPopOver)
@@ -22,7 +22,7 @@ pod 'ZJCustomPopOver'
 
 ## Author
 
-zhangjingjing, zhangjingjing@360shop.cn
+knowNothingJ, knowNothingJ@163.com
 
 ## License
 

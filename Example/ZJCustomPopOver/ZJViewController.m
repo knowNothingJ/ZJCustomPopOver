@@ -2,8 +2,8 @@
 //  ZJViewController.m
 //  ZJCustomPopOver
 //
-//  Created by zhangjingjing on 04/22/2021.
-//  Copyright (c) 2021 zhangjingjing. All rights reserved.
+//  Created by knowNothingJ on 04/22/2021.
+//  Copyright (c) 2021 knowNothingJ. All rights reserved.
 //
 
 #import "ZJViewController.h"
@@ -18,6 +18,9 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    UIButton *click = [[UIButton alloc]initWithFrame:CGRectMake(100, 150, 60, 30)];
+    [click setTitle:@"点击" forState:UIControlStateNormal];
 }
 
 - (void)didReceiveMemoryWarning

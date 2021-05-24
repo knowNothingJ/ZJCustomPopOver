@@ -1,0 +1,16 @@
+PODS:
+  - ZJCustomPopOver (0.1.0)
+
+DEPENDENCIES:
+  - ZJCustomPopOver (from `../`)
+
+EXTERNAL SOURCES:
+  ZJCustomPopOver:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ZJCustomPopOver: f1454a49235466fd64d35f79f7e09d34d1e97009
+
+PODFILE CHECKSUM: f22ae90baa4039f39d8e35b1860b746b9f58ef3c
+
+COCOAPODS: 1.9.1

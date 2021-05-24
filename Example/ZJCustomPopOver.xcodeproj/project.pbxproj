@@ -38,7 +38,7 @@
 
 /* Begin PBXFileReference section */
 		07C8F7212094E94779244480 /* Pods-ZJCustomPopOver_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZJCustomPopOver_Example.debug.xcconfig"; path = "Target Support Files/Pods-ZJCustomPopOver_Example/Pods-ZJCustomPopOver_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		1058559F469921EC6C71CDF0 /* ZJCustomPopOver.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = ZJCustomPopOver.podspec; path = ../ZJCustomPopOver.podspec; sourceTree = "<group>"; };
+		1058559F469921EC6C71CDF0 /* ZJCustomPopOver.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ZJCustomPopOver.podspec; path = ../ZJCustomPopOver.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		5E6A4194D2188FF0700D97CC /* Pods_ZJCustomPopOver_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZJCustomPopOver_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* ZJCustomPopOver_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZJCustomPopOver_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -59,14 +59,14 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		69D9FFB7C6AEF25C773454CF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		69D9FFB7C6AEF25C773454CF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BA34E6EE6F0ADEF5DF37C5A3 /* Pods-ZJCustomPopOver_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZJCustomPopOver_Example.release.xcconfig"; path = "Target Support Files/Pods-ZJCustomPopOver_Example/Pods-ZJCustomPopOver_Example.release.xcconfig"; sourceTree = "<group>"; };
 		BE8810C2046DA6DA2C5D0DA6 /* Pods_ZJCustomPopOver_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZJCustomPopOver_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB586853F248EA8B7876F9C4 /* Pods-ZJCustomPopOver_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZJCustomPopOver_Tests.debug.xcconfig"; path = "Target Support Files/Pods-ZJCustomPopOver_Tests/Pods-ZJCustomPopOver_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		D01F36BE852533640A3AA4D9 /* Pods-ZJCustomPopOver_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZJCustomPopOver_Tests.release.xcconfig"; path = "Target Support Files/Pods-ZJCustomPopOver_Tests/Pods-ZJCustomPopOver_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		F291B97C6ABDAA2E4818F73C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		F291B97C6ABDAA2E4818F73C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -193,7 +193,6 @@
 				CB586853F248EA8B7876F9C4 /* Pods-ZJCustomPopOver_Tests.debug.xcconfig */,
 				D01F36BE852533640A3AA4D9 /* Pods-ZJCustomPopOver_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -246,7 +245,7 @@
 			attributes = {
 				CLASSPREFIX = ZJ;
 				LastUpgradeCheck = 0720;
-				ORGANIZATIONNAME = zhangjingjing;
+				ORGANIZATIONNAME = knowNothingJ;
 				TargetAttributes = {
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
@@ -258,6 +257,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -497,10 +497,12 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ZJCustomPopOver/ZJCustomPopOver-Prefix.pch";
 				INFOPLIST_FILE = "ZJCustomPopOver/ZJCustomPopOver-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ZJCustomPopOver-Example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -513,10 +515,12 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ZJCustomPopOver/ZJCustomPopOver-Prefix.pch";
 				INFOPLIST_FILE = "ZJCustomPopOver/ZJCustomPopOver-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ZJCustomPopOver-Example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

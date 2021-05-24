@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ZJCustomPopOver'
-  s.version          = '0.1.0'
+  s.version          = '1.0'
   s.summary          = 'A short description of ZJCustomPopOver.'
 
 # This description is used to generate tags and improve search results.
@@ -21,15 +21,14 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/zhangjingjing/ZJCustomPopOver'
+  s.homepage         = 'https://github.com/knowNothingJ/ZJCustomPopOver'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'zhangjingjing' => 'zhangjingjing@360shop.cn' }
-  s.source           = { :git => 'https://github.com/zhangjingjing/ZJCustomPopOver.git', :tag => s.version.to_s }
+  s.author           = { 'knowNothingJ' => 'knowNothingJ@163.com' }
+  s.source           = { :git => 'https://github.com/knowNothingJ/ZJCustomPopOver.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
-
   s.source_files = 'ZJCustomPopOver/Classes/**/*'
   
   # s.resource_bundles = {
